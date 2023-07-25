@@ -1,0 +1,35 @@
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 89px 31px;
+    padding: 116px 160px;
+}
+
+.features__card {
+    display: flex;
+    max-width: 370px;
+    flex-flow: column;
+}
+
+.features__svg {
+    align-self: center;
+    margin-bottom: 29px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.features__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+}
+
+.features__text {
+    text-align: center;
+    color: #6C7279;
+}

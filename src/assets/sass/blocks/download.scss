@@ -1,0 +1,25 @@
+.download {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 160px 170px 114px;
+}
+
+.download__title {
+    font-weight: 500;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+}
+
+.download__subtitle {
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.download__button {
+    margin-top: 48px;
+}

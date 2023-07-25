@@ -1,0 +1,32 @@
+@import './dots.scss';
+
+.testimonials {
+    position: relative;
+}
+
+.swiper-slide {
+    display: flex;
+    background-color: #5C3249;
+    gap: 130px;
+}
+
+.testimonials-slider__text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 470px;
+}
+
+.testimonials-slider__slogan {
+    font-family: 'Cardo', serif;
+    font-size: 36px;
+    color: #FFF;
+}
+
+.testimonials-slider__name-job {
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #FFF;
+    margin-top: 25px;
+}

@@ -1,0 +1,19 @@
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2C3154;
+    padding: 24px 570px;
+}
+
+.copyright__text {
+    max-width: 370px;
+    color: #808080;
+    text-transform: capitalize;
+    text-align: center;
+
+    span {
+        color: #FFF;
+        cursor: pointer;
+    }
+}   

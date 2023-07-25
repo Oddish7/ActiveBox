@@ -1,0 +1,35 @@
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 114px 170px;
+}
+
+.team__card {
+    max-width: 270px;
+}
+
+.member__name-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #2D3033;
+
+    margin-top: 30px;
+}
+
+.member__job-title {
+    color: #FF4343;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.member__text {
+    color: #6C7279;
+    margin-top: 18px;
+}
+
+.member__socials {
+    margin-top: 38px;
+    cursor: pointer;
+}

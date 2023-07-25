@@ -1,0 +1,36 @@
+.nav__list {
+    display: flex;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.nav-item {
+    display: flex;
+    min-width: 134px;
+    min-height: 60px;
+    align-items: flex-start;
+    justify-content: center;
+
+    &:hover {
+        border-bottom: 3px solid #BABBC5;
+    }
+
+    &:active {
+        border-bottom: 3px solid #E71414;
+    }
+}
+
+.nav-link {
+    color: #FFF;
+
+    .nav-item:active & {
+        color: #E71414;
+    }
+}
+
+a:active {
+    color: #E71414;
+}

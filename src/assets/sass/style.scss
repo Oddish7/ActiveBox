@@ -1,0 +1,24 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:wght@400;500;700;900&display=swap');
+
+// Reset
+@import "./reset.scss";
+
+// Blocks
+@import "./blocks/header.scss";
+@import "./blocks/nav.scss";
+@import "./blocks/button.scss";
+@import "./blocks/features.scss";
+@import "./blocks/works.scss";
+@import "./blocks/team.scss";
+@import "./blocks/testimonials.scss";
+@import "./blocks/dots.scss";
+@import "./blocks/download.scss";
+@import "./blocks/footer.scss";
+@import "./blocks/copyright.scss";
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
