@@ -17,6 +17,10 @@
 @import "./blocks/footer.scss";
 @import "./blocks/copyright.scss";
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
