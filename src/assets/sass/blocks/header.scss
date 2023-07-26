@@ -12,17 +12,26 @@
 
 .header__top {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 296px;
 }
 
 .header__separator {
     border: 1px solid #BABBC5;
+    min-width: 1170px;
+    align-self: center;
+
+        @media (max-width: 1509px){
+            min-width: 0;
+            align-self: normal;
+        }
 }
 
 .header__content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 .header__title {

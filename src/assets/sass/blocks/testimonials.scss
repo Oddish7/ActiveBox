@@ -1,7 +1,15 @@
-@import './dots.scss';
-
 .testimonials {
     position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-container {
+    overflow: hidden;
+}
+
+.swiper-wrapper {
+    max-width: 1510px;
 }
 
 .swiper-slide {

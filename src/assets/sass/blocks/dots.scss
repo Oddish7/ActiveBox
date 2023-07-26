@@ -1,23 +1,19 @@
-.testimonials__dot-action {
-    display: none;
-}
-
-#dot1:checked ~ #point1, #dot2:checked ~ #point2, #dot3:checked ~ #point3, #dot4:checked ~ #point4, #dot5:checked ~ #point5 {
-    background-color: #7E5D6F;
-}
-
-.testimonials__dots {
+.swiper-pagination {
+    position: static;
     display: flex;
-    justify-content: space-between;
-    position: absolute;
-    min-width: 170px;
-    left: 670px;
-    top: 520px;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
 }
 
-.testimonials__point {
+.swiper-pagination-bullet {
     width: 14px;
     height: 14px;
-    border-radius: 50%;
     border: 1px solid #7E5D6F;
+    background-color: #FFF;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #7E5D6F;
 }

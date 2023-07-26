@@ -1,8 +1,9 @@
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     background-color: #353C65;
-    gap: 30px;
+    gap: 130px;
     padding: 72px 170px 71px;
 }
 
@@ -31,7 +32,6 @@
     flex-direction: column;
     justify-content: space-between;
     max-width: 370px;
-    cursor: pointer;
 }
 
 .social__title {
@@ -50,6 +50,7 @@
 .social__svg {
     max-width: 39px;
     max-height: 39px;
+    cursor: pointer;
 }
 
 .footer__about {
