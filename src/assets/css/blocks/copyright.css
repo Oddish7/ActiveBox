@@ -1,0 +1,27 @@
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2C3154;
+  padding: 24px;
+}
+@media (max-width: 1228px) {
+  .copyright {
+    padding: 14px;
+  }
+}
+
+.copyright__text {
+  color: #808080;
+  text-transform: capitalize;
+  text-align: center;
+}
+.copyright__text span {
+  color: #FFF;
+  cursor: pointer;
+}
+@media (max-width: 420px) {
+  .copyright__text {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=copyright.css.map */
