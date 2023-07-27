@@ -16,19 +16,89 @@
     display: flex;
     background-color: #5C3249;
     gap: 130px;
+
+        @media (max-width: 1228px) {
+            gap: 85px;
+        }
+
+        @media (max-width: 907px) {
+            flex-direction: column;
+            gap: 0px;
+            padding-bottom: 50px;
+        }
+
+        @media (max-width: 320px) {
+            padding-bottom: 90px;
+        }
+}
+
+.testimonials-slider__picture {
+    @media (max-width: 1228px) {
+        max-width: 500px;
+    }
+
+    @media (max-width: 907px) {
+        max-width: 907px;
+        max-height: 550px;
+    }
+
+    @media (max-width: 420px) {
+        max-width: 420px;
+        max-height: 420px;
+    }
 }
 
 .testimonials-slider__text {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     max-width: 470px;
+    margin-top: 116px;
+    margin-right: 50px;
+
+        @media (max-width: 1228px) {
+            margin-top: 47px;
+        }
+
+        @media (max-width: 1228px) {
+            margin-right: 100px;
+        }
+
+        @media (max-width: 907px) {
+            align-self: center;
+            margin-top: 20px;
+            margin-right: 0px;
+            max-width: 600px;
+        }
+
+        @media (max-width: 640px){
+            max-width: 275px;
+        }
+
+        @media (max-width: 320px) {
+            margin-top: 25px;
+        }
 }
 
 .testimonials-slider__slogan {
     font-family: 'Cardo', serif;
     font-size: 36px;
     color: #FFF;
+
+        @media (max-width: 1416px) {
+            font-size: 32px;
+        }
+
+        @media (max-width: 1252px) {
+            font-size: 29px;
+        }
+
+        @media (max-width: 1047px) {
+            font-size: 24px;
+        }
+
+        @media (max-width: 420px) {
+            text-align: center;
+        }
 }
 
 .testimonials-slider__name-job {
@@ -37,4 +107,12 @@
     text-transform: uppercase;
     color: #FFF;
     margin-top: 25px;
+
+        @media (max-width: 1344px) {
+            font-size: 12px;
+        }
+
+        @media (max-width: 200px) {
+            text-align: center;
+        }
 }

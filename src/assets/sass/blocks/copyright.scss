@@ -4,6 +4,10 @@
     align-items: center;
     background-color: #2C3154;
     padding: 24px;
+
+        @media (max-width :1228px) {
+            padding: 14px;
+        }
 }
 
 .copyright__text {
@@ -15,4 +19,8 @@
         color: #FFF;
         cursor: pointer;
     }
+
+        @media (max-width :420px) {
+            font-size: 14px;
+        }
 }   

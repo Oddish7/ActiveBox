@@ -4,6 +4,14 @@
     justify-content: center;
     gap: 20px;
     padding-top: 30px;
+
+        @media (max-width: 320px) {
+            padding-top: 23px;
+        }
+
+        @media (max-width: 200px) {
+            gap: 10px;
+        }
 }
 
 .swiper-pagination-bullet {
@@ -12,6 +20,11 @@
     border: 1px solid #7E5D6F;
     background-color: #FFF;
     opacity: 1;
+
+        @media (max-width: 320px) {
+            width: 9px;
+            height: 9px;
+        }
 }
 
 .swiper-pagination-bullet-active {

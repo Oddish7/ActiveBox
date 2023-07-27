@@ -1,0 +1,100 @@
+#burgertoogle, .burger-button {
+    display: none;
+}
+
+.burger-button {
+    width: 24px;
+    height: 18px;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+
+    @media (max-width: 803px) {
+        display: flex;
+        z-index: 3;
+    }
+}
+
+.burger-button__line {
+    width: 100%;
+    height: 3px;
+    background-color: #FFFFFF;
+}
+
+#burgertoogle:checked + .burger-button .burger-button__line {
+    position: absolute;
+    top: 8px;
+}
+
+#burgertoogle:checked + .burger-button .line2 {
+    display: none;
+}
+
+#burgertoogle:checked + .burger-button .line1 {
+    transform: rotate(45deg);
+    transition: 0.05s ease-in-out;
+}
+
+#burgertoogle:checked + .burger-button .line3 {
+    transform: rotate(135deg);
+    transition: 0.05s ease-in-out;
+}
+
+#burgertoogle:checked ~ .header__nav{
+    display: flex;
+}
+
+#burgertoogle:checked ~ .burger-button {
+    position: fixed;
+    left: 180px;
+    top: 5px;
+
+        @media (max-width: 420px) {
+        top: 18px;
+        left: 360px;
+        }
+
+        @media (max-width: 400px) {
+            left: 340px;
+        }
+
+        @media (max-width: 380px) {
+            left: 320px;
+        }
+
+        @media (max-width: 360px) {
+            left: 300px;
+        }
+
+        @media (max-width: 340px) {
+            left: 280px;
+        }
+
+        @media (max-width: 320px) {
+            left: 260px;
+        }
+
+        @media (max-width: 300px) {
+            left: 240px;
+        }
+
+        @media (max-width: 280px) {
+            left: 220px;
+        }
+
+        @media (max-width: 260px) {
+            left: 200px;
+        }
+
+        @media (max-width: 240px) {
+            left: 180px;
+        }
+
+        @media (max-width: 220px) {
+            left: 160px;
+        }
+
+        @media (max-width: 200px) {
+            left: 140px;
+        }
+}
