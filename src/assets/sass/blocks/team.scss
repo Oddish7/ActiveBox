@@ -5,35 +5,35 @@
     gap: 24px;
     padding: 114px 170px;
 
-        @media (max-width: 1509px) {
-            padding: 80px 20px;
-        }
+    @media (max-width: 1509px) {
+        padding: 80px 20px;
+    }
 
-        @media (max-width: 1228px) {
-            flex-wrap: nowrap;
-        }
+    @media (max-width: 1228px) {
+        flex-wrap: nowrap;
+    }
 
-        @media (max-width: 944px) {
-            flex-wrap: wrap;
-        }
+    @media (max-width: 944px) {
+        flex-wrap: wrap;
+    }
 
-        @media (max-width: 420px) {
-            padding-top: 35px;
-            padding-bottom: 35px;
-            gap: 50px;
-        }
+    @media (max-width: 420px) {
+        padding-top: 35px;
+        padding-bottom: 35px;
+        gap: 50px;
+    }
 }
 
 .team__card {
     max-width: 270px;
 
-        @media (max-width: 1228px) {
-            max-width: 223px;
-        }
+    @media (max-width: 1228px) {
+        max-width: 223px;
+    }
 
-        @media (max-width: 1228px) {
-            max-width: 280px;
-        }
+    @media (max-width: 1228px) {
+        max-width: 280px;
+    }
 }
 
 .member__name-title {
@@ -43,10 +43,10 @@
 
     margin-top: 30px;
 
-        @media (max-width: 1228px) {
-            font-size: 18px;
-            margin-top: 25px;
-        }
+    @media (max-width: 1228px) {
+        font-size: 18px;
+        margin-top: 25px;
+    }
 }
 
 .member__job-title {
@@ -54,42 +54,42 @@
     text-transform: uppercase;
     margin-top: 5px;
 
-        @media (max-width: 1228px) {
-            font-size: 14px;
-        }
+    @media (max-width: 1228px) {
+        font-size: 14px;
+    }
 }
 
 .member__text {
     color: #6C7279;
     margin-top: 18px;
 
-        @media (max-width: 1228px) {
-            font-size: 14px;
-            margin-top: 23px;
-        }
+    @media (max-width: 1228px) {
+        font-size: 14px;
+        margin-top: 23px;
+    }
 
-        @media (max-width: 420px) {
-            margin-top: 38px;
-        }
+    @media (max-width: 420px) {
+        margin-top: 38px;
+    }
 }
 
 .member__socials {
     margin-top: 38px;
     cursor: pointer;
 
-        @media (max-width: 1228px) {
-            max-width: 33px;
-            max-height: 33px;
-        }
+    @media (max-width: 1228px) {
+        max-width: 33px;
+        max-height: 33px;
+    }
 
-        @media (max-width: 320px) {
-            margin-top: 50px;
-            max-width: 40px;
-            max-height: 40px;
-        }
+    @media (max-width: 320px) {
+        margin-top: 50px;
+        max-width: 40px;
+        max-height: 40px;
+    }
 
-        @media (max-width: 200px) {
-            width: 25px;
-            height: 25px;
-        }
+    @media (max-width: 200px) {
+        width: 25px;
+        height: 25px;
+    }
 }

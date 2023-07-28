@@ -17,19 +17,19 @@
     background-color: #5C3249;
     gap: 130px;
 
-        @media (max-width: 1228px) {
-            gap: 85px;
-        }
+    @media (max-width: 1228px) {
+        gap: 85px;
+    }
 
-        @media (max-width: 907px) {
-            flex-direction: column;
-            gap: 0px;
-            padding-bottom: 50px;
-        }
+    @media (max-width: 907px) {
+        flex-direction: column;
+        gap: 0px;
+        padding-bottom: 50px;
+    }
 
-        @media (max-width: 320px) {
-            padding-bottom: 90px;
-        }
+    @media (max-width: 320px) {
+        padding-bottom: 90px;
+    }
 }
 
 .testimonials-slider__picture {
@@ -55,28 +55,28 @@
     margin-top: 116px;
     margin-right: 50px;
 
-        @media (max-width: 1228px) {
-            margin-top: 47px;
-        }
+    @media (max-width: 1228px) {
+        margin-top: 47px;
+    }
 
-        @media (max-width: 1228px) {
-            margin-right: 100px;
-        }
+    @media (max-width: 1228px) {
+        margin-right: 100px;
+    }
 
-        @media (max-width: 907px) {
-            align-self: center;
-            margin-top: 20px;
-            margin-right: 0px;
-            max-width: 600px;
-        }
+    @media (max-width: 907px) {
+        align-self: center;
+        margin-top: 20px;
+        margin-right: 0px;
+        max-width: 600px;
+    }
 
-        @media (max-width: 640px){
-            max-width: 275px;
-        }
+    @media (max-width: 640px) {
+        max-width: 275px;
+    }
 
-        @media (max-width: 320px) {
-            margin-top: 25px;
-        }
+    @media (max-width: 320px) {
+        margin-top: 25px;
+    }
 }
 
 .testimonials-slider__slogan {
@@ -84,21 +84,21 @@
     font-size: 36px;
     color: #FFF;
 
-        @media (max-width: 1416px) {
-            font-size: 32px;
-        }
+    @media (max-width: 1416px) {
+        font-size: 32px;
+    }
 
-        @media (max-width: 1252px) {
-            font-size: 29px;
-        }
+    @media (max-width: 1252px) {
+        font-size: 29px;
+    }
 
-        @media (max-width: 1047px) {
-            font-size: 24px;
-        }
+    @media (max-width: 1047px) {
+        font-size: 24px;
+    }
 
-        @media (max-width: 420px) {
-            text-align: center;
-        }
+    @media (max-width: 420px) {
+        text-align: center;
+    }
 }
 
 .testimonials-slider__name-job {
@@ -108,11 +108,11 @@
     color: #FFF;
     margin-top: 25px;
 
-        @media (max-width: 1344px) {
-            font-size: 12px;
-        }
+    @media (max-width: 1344px) {
+        font-size: 12px;
+    }
 
-        @media (max-width: 200px) {
-            text-align: center;
-        }
+    @media (max-width: 200px) {
+        text-align: center;
+    }
 }

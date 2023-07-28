@@ -5,9 +5,9 @@
     background-color: #2C3154;
     padding: 24px;
 
-        @media (max-width :1228px) {
-            padding: 14px;
-        }
+    @media (max-width :1228px) {
+        padding: 14px;
+    }
 }
 
 .copyright__text {
@@ -20,7 +20,7 @@
         cursor: pointer;
     }
 
-        @media (max-width :420px) {
-            font-size: 14px;
-        }
-}   
+    @media (max-width :420px) {
+        font-size: 14px;
+    }
+}
