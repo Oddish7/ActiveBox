@@ -1,5 +1,6 @@
 .testimonials {
     position: relative;
+
     display: flex;
     justify-content: center;
 }
@@ -14,8 +15,9 @@
 
 .swiper-slide {
     display: flex;
-    background-color: #5C3249;
     gap: 130px;
+
+    background-color: #5C3249;
 
     @media (max-width: 1228px) {
         gap: 85px;
@@ -65,9 +67,9 @@
 
     @media (max-width: 907px) {
         align-self: center;
+        max-width: 600px;
         margin-top: 20px;
         margin-right: 0px;
-        max-width: 600px;
     }
 
     @media (max-width: 640px) {
@@ -102,11 +104,12 @@
 }
 
 .swiper-slide__name-job {
+    margin-top: 25px;
+
     font-weight: 700;
     font-size: 13px;
     text-transform: uppercase;
     color: #FFF;
-    margin-top: 25px;
 
     @media (max-width: 1344px) {
         font-size: 12px;

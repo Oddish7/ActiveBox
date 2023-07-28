@@ -2,8 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2C3154;
     padding: 24px;
+
+    background-color: #2C3154;
 
     @media (max-width :1228px) {
         padding: 14px;
@@ -11,9 +12,9 @@
 }
 
 .copyright__text {
-    color: #808080;
-    text-transform: capitalize;
     text-align: center;
+    text-transform: capitalize;
+    color: #808080;
 
     span {
         color: #FFF;

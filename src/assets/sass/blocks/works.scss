@@ -43,15 +43,16 @@
 }
 
 .works-overlay__title {
-    font-weight: 900;
-    font-size: 24px;
-    color: #FFF;
-    text-transform: uppercase;
-
     position: absolute;
     top: 120px;
     left: 96px;
+
     display: none;
+
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FFF;
 
     .works-overlay:hover & {
         display: block;
@@ -63,9 +64,9 @@
     }
 
     @media (max-width: 1228px) {
-        font-size: 18px;
         top: 80px;
         left: 55px;
+        font-size: 18px;
     }
 
     @media (max-width: 420px) {
@@ -79,12 +80,13 @@
 }
 
 .works-overlay__subtitle {
-    color: #FFF;
-
     position: absolute;
     top: 180px;
     left: 96px;
+
     display: none;
+
+    color: #FFF;
 
     .works-overlay:hover & {
         display: block;
@@ -96,9 +98,9 @@
     }
 
     @media (max-width: 1228px) {
-        font-size: 14px;
         top: 120px;
         left: 55px;
+        font-size: 14px;
     }
 
     @media (max-width: 420px) {
