@@ -25,7 +25,7 @@
     }
 }
 
-.features__card {
+.features-card {
     display: flex;
     max-width: 370px;
     flex-flow: column;
@@ -35,7 +35,7 @@
     }
 }
 
-.features__svg {
+.features-card__svg {
     align-self: center;
     margin-bottom: 29px;
     max-width: 100px;
@@ -48,7 +48,7 @@
     }
 }
 
-.features__title {
+.features-card__title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +63,7 @@
     }
 }
 
-.features__text {
+.features-card__text {
     text-align: center;
     color: #6C7279;
 

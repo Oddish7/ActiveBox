@@ -22,11 +22,11 @@
     }
 }
 
-.picture__border {
+.picture_border {
     border: 2px solid #FFF;
 }
 
-.works__overlay {
+.works-overlay {
     position: relative;
     overflow: hidden;
     cursor: pointer;
@@ -42,7 +42,7 @@
     }
 }
 
-.overlay__title {
+.works-overlay__title {
     font-weight: 900;
     font-size: 24px;
     color: #FFF;
@@ -53,7 +53,7 @@
     left: 96px;
     display: none;
 
-    .works__overlay:hover & {
+    .works-overlay:hover & {
         display: block;
     }
 
@@ -78,7 +78,7 @@
     }
 }
 
-.overlay__subtitle {
+.works-overlay__subtitle {
     color: #FFF;
 
     position: absolute;
@@ -86,7 +86,7 @@
     left: 96px;
     display: none;
 
-    .works__overlay:hover & {
+    .works-overlay:hover & {
         display: block;
     }
 

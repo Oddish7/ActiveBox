@@ -39,7 +39,7 @@
     }
 }
 
-.header__top {
+.header-top {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -56,13 +56,13 @@
     }
 }
 
-.header__logo {
+.header-top__logo {
     @media (max-width: 420px) {
         display: none;
     }
 }
 
-.header__logo-mobile {
+.header-top__logo-mobile {
     display: none;
 
     @media (max-width: 420px) {
@@ -85,13 +85,13 @@
     }
 }
 
-.header__content {
+.header-content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.header__title {
+.header-content__title {
     font-weight: 900;
     font-size: 64px;
     color: #FFF;
@@ -120,7 +120,7 @@
     }
 }
 
-.header__subtitle {
+.header-content__subtitle {
     font-size: 24px;
     color: #FFF;
     text-align: center;
