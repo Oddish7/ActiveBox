@@ -32,7 +32,7 @@
     }
 }
 
-.testimonials-slider__picture {
+.swiper-slide__picture {
     @media (max-width: 1228px) {
         max-width: 500px;
     }
@@ -48,7 +48,7 @@
     }
 }
 
-.testimonials-slider__text {
+.swiper-slide__text {
     display: flex;
     flex-direction: column;
     max-width: 470px;
@@ -79,7 +79,7 @@
     }
 }
 
-.testimonials-slider__slogan {
+.swiper-slide__slogan {
     font-family: 'Cardo', serif;
     font-size: 36px;
     color: #FFF;
@@ -101,7 +101,7 @@
     }
 }
 
-.testimonials-slider__name-job {
+.swiper-slide__name-job {
     font-weight: 700;
     font-size: 13px;
     text-transform: uppercase;

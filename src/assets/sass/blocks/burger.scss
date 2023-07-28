@@ -22,30 +22,30 @@
     background-color: #FFFFFF;
 }
 
-#burgertoogle:checked+.burger-button .burger-button__line {
+#burgertoogle:checked + .burger-button .burger-button__line {
     position: absolute;
     top: 8px;
 }
 
-#burgertoogle:checked+.burger-button .line2 {
+#burgertoogle:checked + .burger-button .line2 {
     display: none;
 }
 
-#burgertoogle:checked+.burger-button .line1 {
+#burgertoogle:checked + .burger-button .line1 {
     transform: rotate(45deg);
     transition: 0.05s ease-in-out;
 }
 
-#burgertoogle:checked+.burger-button .line3 {
+#burgertoogle:checked + .burger-button .line3 {
     transform: rotate(135deg);
     transition: 0.05s ease-in-out;
 }
 
-#burgertoogle:checked~.header__nav {
+#burgertoogle:checked ~ .header__nav {
     display: flex;
 }
 
-#burgertoogle:checked~.burger-button {
+#burgertoogle:checked ~ .header-top__burger {
     position: fixed;
     left: 180px;
     top: 5px;
