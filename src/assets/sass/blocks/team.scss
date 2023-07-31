@@ -24,7 +24,7 @@
     }
 }
 
-.team-card {
+.team__card {
     max-width: 270px;
 
     @media (max-width: 1228px) {
@@ -36,7 +36,7 @@
     }
 }
 
-.team-card__name-title {
+.team__card-name {
     margin-top: 30px;
 
     font-weight: 700;
@@ -49,7 +49,7 @@
     }
 }
 
-.team-card__job-title {
+.team__card-job {
     margin-top: 5px;
 
     text-transform: uppercase;
@@ -60,7 +60,7 @@
     }
 }
 
-.team-card__text {
+.team__card-text {
     margin-top: 18px;
 
     color: #6C7279;
@@ -75,7 +75,7 @@
     }
 }
 
-.team-card__socials {
+.team__card-socials {
     margin-top: 38px;
 
     cursor: pointer;

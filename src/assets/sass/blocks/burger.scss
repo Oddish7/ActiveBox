@@ -42,11 +42,11 @@
     transition: 0.05s ease-in-out;
 }
 
-#burgertoogle:checked ~ .header__nav {
+#burgertoogle:checked ~ .header__top-nav {
     display: flex;
 }
 
-#burgertoogle:checked ~ .header-top__burger {
+#burgertoogle:checked ~ .burger-button {
     position: fixed;
     top: 5px;
     left: 180px;

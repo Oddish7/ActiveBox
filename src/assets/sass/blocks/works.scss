@@ -26,7 +26,7 @@
     border: 2px solid #FFF;
 }
 
-.works-overlay {
+.works__overlay {
     position: relative;
     overflow: hidden;
     cursor: pointer;
@@ -36,13 +36,21 @@
         box-shadow: 0 0 0 373px rgba(255, 67, 67, 0.80);
     }
 
+    &:hover .works__overlay-title {
+        display: block;
+    }
+
+    &:hover .works__overlay-subtitle {
+        display: block;
+    }
+
     &:active:after {
         content: '';
         box-shadow: 0 0 0 373px rgba(185, 12, 12, 0.80);
     }
 }
 
-.works-overlay__title {
+.works__overlay-title {
     position: absolute;
     top: 120px;
     left: 96px;
@@ -53,10 +61,6 @@
     font-size: 24px;
     text-transform: uppercase;
     color: #FFF;
-
-    .works-overlay:hover & {
-        display: block;
-    }
 
     @media (max-width: 1509px) {
         top: 95px;
@@ -79,7 +83,7 @@
     }
 }
 
-.works-overlay__subtitle {
+.works__overlay-subtitle {
     position: absolute;
     top: 180px;
     left: 96px;
@@ -87,10 +91,6 @@
     display: none;
 
     color: #FFF;
-
-    .works-overlay:hover & {
-        display: block;
-    }
 
     @media (max-width: 1509px) {
         top: 145px;

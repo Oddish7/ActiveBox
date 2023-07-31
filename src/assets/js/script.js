@@ -1,5 +1,5 @@
 // Dots
-new Swiper('.testimonials-slider', {
+new Swiper('.testimonials__slider', {
     pagination: {
         el: '.swiper-pagination',
         clickable: true,

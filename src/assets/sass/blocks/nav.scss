@@ -1,4 +1,4 @@
-.header-top__nav {
+.header__top-nav {
     @media (max-width: 803px) {
         position: fixed;
         top: 0;
@@ -75,7 +75,7 @@
         border-bottom: 3px solid #E71414;
     }
 
-    &:active~.header__nav {
+    &:active ~ .header__top-nav {
         display: none;
     }
 
